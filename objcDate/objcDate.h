@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char objcDateVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcDate/PublicHeader.h>
 
-
+#import <objcDate/NSDate+VDString.h>

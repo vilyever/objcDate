@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6405311D5472B800652BAC /* objcDate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405301D5472B800652BAC /* objcDate.h */; };
+		FE6405311D5472B800652BAC /* objcDate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405301D5472B800652BAC /* objcDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6405381D5472B800652BAC /* objcDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64052D1D5472B800652BAC /* objcDate.framework */; };
 		FE64053D1D5472B800652BAC /* objcDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64053C1D5472B800652BAC /* objcDateTests.m */; };
+		FE64054A1D5472CE00652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6405471D5472CD00652BAC /* Cartfile */; };
+		FE64054B1D5472CE00652BAC /* objcDate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6405481D5472CD00652BAC /* objcDate.podspec */; };
+		FE6405531D54730400652BAC /* NSDate+VDString.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405511D54730400652BAC /* NSDate+VDString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405541D54730400652BAC /* NSDate+VDString.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405521D54730400652BAC /* NSDate+VDString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE6405371D5472B800652BAC /* objcDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64053C1D5472B800652BAC /* objcDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcDateTests.m; sourceTree = "<group>"; };
 		FE64053E1D5472B800652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6405471D5472CD00652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE6405481D5472CD00652BAC /* objcDate.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcDate.podspec; sourceTree = "<group>"; };
+		FE6405491D5472CD00652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE6405511D54730400652BAC /* NSDate+VDString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+VDString.h"; sourceTree = "<group>"; };
+		FE6405521D54730400652BAC /* NSDate+VDString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+VDString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE64052F1D5472B800652BAC /* objcDate */,
 				FE64053B1D5472B800652BAC /* objcDateTests */,
 				FE64052E1D5472B800652BAC /* Products */,
+				FE6405471D5472CD00652BAC /* Cartfile */,
+				FE6405481D5472CD00652BAC /* objcDate.podspec */,
+				FE6405491D5472CD00652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE6405301D5472B800652BAC /* objcDate.h */,
 				FE6405321D5472B800652BAC /* Info.plist */,
+				FE6405511D54730400652BAC /* NSDate+VDString.h */,
+				FE6405521D54730400652BAC /* NSDate+VDString.m */,
 			);
 			path = objcDate;
 			sourceTree = "<group>";
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405531D54730400652BAC /* NSDate+VDString.h in Headers */,
 				FE6405311D5472B800652BAC /* objcDate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64054B1D5472CE00652BAC /* objcDate.podspec in Resources */,
+				FE64054A1D5472CE00652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405541D54730400652BAC /* NSDate+VDString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
